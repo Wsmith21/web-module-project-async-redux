@@ -1,10 +1,14 @@
-import React from 'react';
-import './App.css';
+// App.js
+import React from "react";
+import BoredList from "./components/BoredList";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      Async Redux Project
+      <header className="App-header">
+        <BoredList />
+      </header>
     </div>
   );
 }
